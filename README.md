@@ -1,6 +1,4 @@
 # How-to-run-xow64-in-native-termux-desktop-mode
-~/xow64 r winecfg
-
 
 ok the first thing to do is to install the pkg you whould need
 
