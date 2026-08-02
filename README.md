@@ -14,6 +14,10 @@ next is the install command for xow64
 
 and wait for xow64(wine) to install
 
+run this command if you want to configure xow64
+
+~/xow64 r winecfg
+
 move your games/programs to termux in a folder
 
 go to the folder that the .exe of you game/program is located in termux
