@@ -14,7 +14,7 @@ next is the install command for xow64
 
 and wait for xow64(wine) to install
 
-moe your games/programs to termux in a folder
+move your games/programs to termux in a folder
 
 to run programs you have to run this command
 
