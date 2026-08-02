@@ -1,19 +1,21 @@
 # How-to-run-xow64-in-native-termux-desktop-mode
 
-ok the first thing to do is to install the pkg you whould need
+ok the first thing to do is to install the required pkg you whould need
 
-1: pkg install install wget git nano -y
+pkg install install wget -y
 
-make sure to keep this symbol in the command ~
+then you can run this command to get the files for xow64(wine)
 
-2: mkdir xow64-wine && cd ~/xow64-wine
-
-then you can run this command to get the files for xow64
-
-wget https://github.com/ar37-rs/xow64-wine/raw/refs/heads/main/xow64 && chmod +x ~/xow64
+cd $HOME && rm -rf ~/xow64 && wget https://github.com/ar37-rs/xow64-wine/raw/refs/heads/main/xow64 && chmod +x ~/xow64
 
 next is the install command for xow64
 
-~/xow64 install
+~/xow64 install -y
 
-and now after a wait time xow64 aka wine is now installed
+and wait for xow64(wine) to install
+
+to run programs you have to run this command
+
+go to the folder that the .exe of you game/program is located in termux
+
+make sure to keep this symbol in the command ~/xow64 r (the_programs_name).exe
