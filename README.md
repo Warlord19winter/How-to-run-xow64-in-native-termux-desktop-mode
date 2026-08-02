@@ -24,4 +24,6 @@ go to the folder that the .exe of you game/program is located in termux
 
 to run programs you have to run this command
 
-make sure to keep this symbol in the command ~/xow64 r (the_programs_name).exe
+make sure to keep this symbol ~ in the command
+
+~/xow64 r (the_programs_name).exe
